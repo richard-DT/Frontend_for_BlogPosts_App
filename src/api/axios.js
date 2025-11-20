@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useAuthStore } from '../stores/auth';
 
 const api = axios.create({
-  baseURL: 'https://backend-api-for-in-class-prototyping.onrender.com',
+  baseURL: 'https://backend-api-for-in-class-prototyping.onrender.com/api',
 });
 
 api.interceptors.request.use(config => {
